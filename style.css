@@ -1,0 +1,25 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.header-contents {
+  height: 70px;
+  width: 1024px;
+  background-color: #ec715f;
+  display: inline-block;
+}
+
+.header-list {
+  margin: 28px;
+}
+
+.list {
+  list-style: none;
+  font-size: 16px;
+  color: #fafafa;
+  float: right;
+}
