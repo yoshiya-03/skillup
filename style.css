@@ -48,6 +48,7 @@ header {
   padding-top: 200px;
 }
 
+
 .main-visual-text-p {
   color: #fafafa;
   font-size: 20px;
@@ -55,39 +56,51 @@ header {
   margin-top: 10px;
 }
 
-.main-content {
-  width: 100%;
-  height: 900px;
-  background-color: #eceff1;         
+section {
+  display: block;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
 
-.main-text {
-  font-size: 32px;
+
+.heading {
   color: black;
-  text-align: center;
-  margin-top: 0px;
   padding-top: 90px;
-}
-.main-text:before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: -100px; /*下線の上下位置調整*/
-    display: inline-block;
-    width: 70px; /*下線の幅*/
-    height: 3px; /*下線の太さ*/
-    transform: translate(-50%); /*位置調整*/
-    background-color: #ec715f; /*下線の色*/
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
 }
 
-.main-text-p {
-  font-size: 16px;
-  color: black;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
 }
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.production-group {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
 
 .production {
   float: left;
@@ -96,34 +109,73 @@ header {
   margin: 10px 10px 0 0;
   background-size: cover;
   background-position: center;
+}
 
-  background-image: url(img/sketch.jpg), 
-                    url(img/webcamp-mother.png), 
-                    url(img/webcamp-mother.png),
-                    url(img/webcamp.png), 
-                    url(img/talk.jpg), 
-                    url(img/webcamp-mother.png)
-                    background-repeat: no-repeat,
+
+
 .bg-1 {
- background-image: url(img/sketch.jpg);
+  background-image: url(img/sketch.jpg);
 }
 
 .bg-2 {
-  background-image: url(img/webcamp-mother.png);
+  background-image: url(img/websuku.png);
 }
 
 .bg-3 {
-  background-image: url(../img/sketch.jpg);
+  background-image: url(img/write.jpg);
+}
+.production:nth-child(3n) {
+  margin-right: 0;
 }
 
 .bg-4 {
-  background-image: url(../img/sketch.jpg);
+  background-image: url(img/webcamp.png);
 }
 
 .bg-5 {
-  background-image: url(../img/sketch.jpg);
+  background-image: url(img/talk.jpg);
 }
 
 .bg-6 {
-  background-image: url(../img/sketch.jpg);
+  background-image: url(img/webcamp-mother.png);
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.strength {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength-group {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }

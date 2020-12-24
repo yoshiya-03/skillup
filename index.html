@@ -5,16 +5,14 @@
   <meta charset="UTF-8" />
   <!-- CSSファイルの読み込み -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   <title>skill up</title>
 </head>
 
 <body>
     <header>
-     
-        <img class="header-image" src="img/logo.png" alt="">
-    
+      <img class="header-image" src="img/logo.png" alt="">
       <ul class="nav-list">
-       
         <a href=""><li class="nav-list-item">Portfolio</li></a>
         <a href=""><li class="nav-list-item">Feature</li></a>
         <a href=""><li class="nav-list-item">Profile</li></a>
@@ -25,27 +23,49 @@
 
   <main-visual>
     <div class="main-visual-content">
-    <h1 class="main-visual-text">Lorem Ipsum</h1>
-    <p class="main-visual-text-p">simoly dummy text of the printing</p>
-  </div>
+     <h1 class="main-visual-text">Lorem Ipsum</h1>
+      <p class="main-visual-text-p">simoly dummy text of the printing</p>
+     </div>
   </main-visual>
 
   <main>
-    <div class="main-content">
-      <h3 class="main-text">Portfolio</h3>
-      <p class="main-text-p">It is a long established fact that a reader will be distracted by the readable<br>
-        content of a page when looking at its layout.<br>
-        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-    </div>
-    <div class="production">
-      <div class="production bg-1 sp-none"></div>
-      <div class="production bg-2"></div>
-      <div class="production bg-3 sp-none"></div>
-      <div class="production bg-4"></div>
-      <div class="production bg-5 sp-none"></div>
-      <div class="production bg-6"></div>
-    </div>
+    <section id="portfolio">
+      <div class="container">
+        <h2 class="heading">Portfolio</h2>
+        <p class="heading-text">
+          It is a long established fact that a reader will be distracted by the readable<br> content of a page when looking at its layout.<br class="sp-none"> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <div class="production-group clearfix">
+          <div class="production bg-1 sp-none"></div>
+          <div class="production bg-2"></div>
+          <div class="production bg-3 sp-none"></div>
+          <div class="production bg-4"></div>
+          <div class="production bg-5 sp-none"></div>
+          <div class="production bg-6"></div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <section id="feature">
+    <div class="container2">
+      <h2 class="heading">Feature</h2>
+      <p class="heading-text">
+        It is a long established fact that a reader will be distracted by the readable<br>
+        content of a page when looking at its layout.<br>
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+      </p>
+    </div>
+    
+    <div class="strengh-group clearfix">
+    <div class="strength">
+      <i class="fa fa-code" aria-hidden="true"></i>
+        <h3 class="stength-title">Strengh1</h3>
+        <p class="strengh-text">Contrary to popular belief, Lorem Ipsum<br> is not simply random text. It has roots<br> in a piece of classical Latin literature<br> from 45 BC, making it over 2000 years<br> old. Richard McClintock, a Latin<br> professor at Hampden-Sydney College<br> in Virginia, looked up one of the more<br> obscure Latin words, consectetur</p>
+        </div>>
+    </div>
+
+  </section>
 
   <footer></footer>
 
