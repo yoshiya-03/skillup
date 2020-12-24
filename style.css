@@ -152,7 +152,7 @@ section {
 .strength {
   float: left;
   width: 320px;
-  margin-right: 10px;
+  margin-right: 6px;
   text-align: center;
   font-size: 60px;
 }
@@ -175,6 +175,8 @@ section {
   color: black;
 }
 
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -183,4 +185,10 @@ section {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
+}
+
+/* profile */
+
+#profile {
+  background-color: #ECEFF1;
 }
