@@ -242,4 +242,19 @@ section {
   padding-top: 5px;
 }
 
+.left-contact-content {
+  padding-top: 30px;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fab {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.discription-title {
+  padding-top: 30px;
+}
+
 /* footer */
