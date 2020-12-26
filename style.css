@@ -255,6 +255,27 @@ section {
 
 .discription-title {
   padding-top: 30px;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.fab {
+  color: black;
+  font-size: 50px;
+  margin: 0 20px;
 }
 
 /* footer */
+
+footer {
+  color: #ec715f;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+}
